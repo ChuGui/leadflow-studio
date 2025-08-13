@@ -13,7 +13,7 @@ export default function Footer() {
             </h3>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
               Votre partenaire pour transformer les visiteurs en clients. 
-              Un écosystème complet d'acquisition et de fidélisation client.
+              Un écosystème complet d&apos;acquisition et de fidélisation client.
             </p>
             
             {/* Contact Info */}
