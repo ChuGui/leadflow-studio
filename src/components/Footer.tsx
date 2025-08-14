@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -121,9 +122,11 @@ export default function Footer() {
             </div>
 
             {/* Footer CTA */}
-            <button className="gradient-bg glow-button px-6 py-3 rounded-full text-white font-semibold hover:scale-105 transition-all duration-300">
-              Commencer maintenant
-            </button>
+            <Link href="/demo" className="inline-block">
+              <button className="gradient-bg glow-button px-6 py-3 rounded-full text-white font-semibold hover:scale-105 transition-all duration-300">
+                Commencer maintenant
+              </button>
+            </Link>
           </div>
         </div>
 
