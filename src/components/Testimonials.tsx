@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Testimonials() {
   const testimonials = [
@@ -127,9 +128,11 @@ export default function Testimonials() {
           <p className="text-gray-300 mb-6">
             Rejoignez nos clients satisfaits dès aujourd'hui
           </p>
-          <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
-            Commencer maintenant
-          </button>
+          <Link href="/demo">
+            <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
+              Commencer maintenant
+            </button>
+          </Link>
         </div>
       </div>
     </section>

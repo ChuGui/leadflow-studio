@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Services() {
   const services = [
@@ -85,9 +86,11 @@ export default function Services() {
 
               {/* Learn More Link */}
               <div className="mt-6">
-                <button className="text-transparent bg-clip-text gradient-text font-semibold hover:underline transition-all duration-300">
-                  En savoir plus →
-                </button>
+                <Link href="/processus-complet">
+                  <button className="text-transparent bg-clip-text gradient-text font-semibold hover:underline transition-all duration-300 cursor-pointer">
+                    En savoir plus →
+                  </button>
+                </Link>
               </div>
             </div>
           ))}
@@ -102,9 +105,11 @@ export default function Services() {
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
               Pas de frais cachés, pas de surprises. Un seul abonnement pour tous vos besoins d'acquisition client.
             </p>
-            <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
-              Voir les tarifs
-            </button>
+            <Link href="/offres">
+              <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
+                Voir les tarifs
+              </button>
+            </Link>
           </div>
         </div>
       </div>

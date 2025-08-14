@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function CTA() {
   return (
@@ -52,9 +53,11 @@ export default function CTA() {
 
             {/* Main CTA Button */}
             <div className="mb-8">
-              <button className="gradient-bg glow-button px-12 py-5 rounded-full text-white font-bold text-xl hover:scale-105 transition-all duration-300 shadow-2xl">
-                Réserver mon appel
-              </button>
+              <Link href="/demo">
+                <button className="gradient-bg glow-button px-12 py-5 rounded-full text-white font-bold text-xl hover:scale-105 transition-all duration-300 shadow-2xl">
+                  Réserver mon appel
+                </button>
+              </Link>
             </div>
 
             {/* Secondary Info */}

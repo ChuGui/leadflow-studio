@@ -75,24 +75,24 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/mentions-legales" className="text-gray-300 hover:text-white transition-colors">
                   Mentions légales
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/politique-de-confidentialite" className="text-gray-300 hover:text-white transition-colors">
                   Politique de confidentialité
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/conditions-utilisation" className="text-gray-300 hover:text-white transition-colors">
                   Conditions d'utilisation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Support client
-                </a>
+                <Link href="/support-client" className="text-gray-300 hover:text-white transition-colors">
+                  Support
+                </Link>
               </li>
             </ul>
           </div>
@@ -132,7 +132,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-400 text-sm">
-          <p>© 2024 LeadFlow Studio. Tous droits réservés.</p>
+          <p>© 2025 LeadFlow Studio. Tous droits réservés.</p>
           <p className="mt-2">
             Conçu avec ❤️ pour transformer votre activité en machine à générer des clients.
           </p>

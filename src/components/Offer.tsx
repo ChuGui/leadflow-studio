@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Offer() {
   return (
@@ -85,9 +86,11 @@ export default function Offer() {
 
         {/* Bottom CTA */}
         <div className="mt-16">
-          <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
-            Découvrir le processus complet
-          </button>
+          <Link href="/processus-complet">
+            <button className="gradient-bg glow-button px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-all duration-300">
+              Découvrir le processus complet
+            </button>
+          </Link>
         </div>
       </div>
     </section>
